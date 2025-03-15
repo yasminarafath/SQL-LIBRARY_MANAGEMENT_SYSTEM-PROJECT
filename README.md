@@ -1,5 +1,4 @@
-Build a project based on Library Management System. It keeps track of all information about books in the library, their cost, status and total number of books available in the library. created database named library created tables with names
-
+Build a project based on Library Management System. It keeps track of all information about books in the library, their cost, status and total number of books available in the library. created database named library created tables with names:
 Branch, with attributes Branch_no - Set as PRIMARY KEY Manager_Id Branch_address Contact_no
 Employee, with attributes Emp_Id – Set as PRIMARY KEY Emp_name Position Salary Branch_no - Set as FOREIGN KEY and it refered Branch_no in Branch table
 Books, with attribures ISBN - Set as PRIMARY KEY Book_title Category Rental_Price Status [Given yes if book available and no if book not available] Author Publisher
